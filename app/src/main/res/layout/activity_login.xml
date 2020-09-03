@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/txtRA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtRA"
+        android:labelFor="@id/edtRA"/>
+
+    <EditText
+        android:id="@+id/edtRA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRA"
+        android:inputType="textPersonName"
+        android:autofillHints="@string/edtRA" />
+
+    <TextView
+        android:id="@+id/txtNomeCompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtRA"
+        android:text="@string/txtNomeCompleto"
+        android:labelFor="@id/edtNomeCompleto"/>
+
+    <EditText
+        android:id="@+id/edtNomeCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNomeCompleto"
+        android:inputType="textPersonName"
+        android:text="@string/edtNomeCompleto"
+        android:autofillHints="@string/edtNomeCompleto"/>
+
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNomeCompleto"
+        android:labelFor="@id/edtSenha"
+        android:text="@string/txtSenha" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSenha"
+        android:inputType="textPersonName"
+        android:autofillHints="@string/edtSenha"
+        android:text="@string/edtSenha"/>
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/btnEntrar" />
+</RelativeLayout>

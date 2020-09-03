@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calcula_Nota">
+
+
+    <TextView
+        android:id="@+id/txtSelecao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSelecao" />
+
+        <Button
+            android:id="@+id/btnDisciplina1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSelecao"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDisciplina2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDisciplina1"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDisciplina3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDisciplina2"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDisciplina4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDisciplina3"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDisciplina5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDisciplina4"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDisciplina6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDisciplina5"
+            android:text="" />
+
+    <TextView
+        android:id="@+id/txtN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDisciplina6"
+        android:labelFor="@id/edtN1"
+        android:text="@string/txtN1" />
+
+    <EditText
+        android:id="@+id/edtN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtN1"
+        android:inputType="textPersonName"
+        android:autofillHints="@string/edtN1"
+        android:text="@string/edtN1" />
+
+    <TextView
+        android:id="@+id/txtN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtN1"
+        android:labelFor="@id/edtN2"
+        android:text="@string/txtN2" />
+
+    <EditText
+        android:id="@+id/edtN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtN2"
+        android:inputType="textPersonName"
+        android:autofillHints="@string/edtN2"
+        android:text="@string/edtN2" />
+
+    <TextView
+        android:id="@+id/txtAF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtN2"
+        android:labelFor="@id/edtAF"
+        android:text="@string/txtAF" />
+
+    <EditText
+        android:id="@+id/edtAF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAF"
+        android:inputType="textPersonName"
+        android:autofillHints="@string/edtAF"
+        android:text="@string/edtAF" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSelecao"
+        android:layout_marginTop="500dp"
+        android:layout_marginHorizontal="250dp"
+        android:text="@string/btnCalcular" />
+
+    <Button
+        android:id="@+id/btnVoltarCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSelecao"
+        android:layout_marginTop="500dp"
+        android:layout_marginHorizontal="80dp"
+        android:text="@string/btnVoltar" />
+
+    <TextView
+        android:id="@+id/txtAprovado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalcular"
+        android:layout_centerInParent="true"
+        android:text="@string/txtAprovado"
+        android:textColor="#1A84E1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtReprovado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAprovado"
+        android:layout_centerInParent="true"
+        android:text="@string/txtReprovado"
+        android:textColor="#E91E63"
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>

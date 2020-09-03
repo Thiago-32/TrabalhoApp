@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Trabalho</string>
+    <string name="txtRA">RA:</string>
+    <string name="edtRA">digite o RA</string>
+    <string name="txtNomeCompleto">Nome completo</string>
+    <string name="edtNomeCompleto">Digite seu nome Completo</string>
+    <string name="txtSenha">Senha:</string>
+    <string name="edtSenha">Digite sua senha</string>
+    <string name="btnEntrar">Entrar</string>
+
+    <string name="txtDisciplina">Disciplina</string>
+    <string name="edtDisciplina">Digite a disciplina</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="txtDisciplinaCadastrada">Disciplina Cadastrada</string>
+    <string name="btnAvancar">Avançar</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnExcluir">Excluir</string>
+
+    <string name="txtSelecao">Selecione a disciplina</string>
+    <string name="txtN1">Nota A1</string>
+    <string name="edtN1">Digite a nota A1</string>
+    <string name="txtN2">Nota A2</string>
+    <string name="edtN2">Digite a nota A2</string>
+    <string name="txtAF">Nota AF</string>
+    <string name="edtAF">Digite a nota AF</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnVoltarCalcular">Voltar</string>
+    <string name="txtAprovado">Aprovado</string>
+    <string name="txtReprovado">Reprovado</string>
+
+
+
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastro_Disciplina">
+
+
+    <TextView
+        android:id="@+id/txtDisciplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edtDisciplina"
+        android:text="@string/txtDisciplina" />
+
+    <EditText
+        android:id="@+id/edtDisciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDisciplina"
+        android:inputType="textPersonName"
+        android:text="@string/edtDisciplina"
+        android:autofillHints="@string/edtDisciplina"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDisciplina"
+        android:layout_centerInParent="true"
+        android:text="@string/btnCadastrar" />
+
+    <TextView
+        android:id="@+id/txtDisciplinaCadastrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCadastrar"
+        android:text="@string/txtDisciplinaCadastrada" />
+
+    <Button
+        android:id="@+id/btnAvancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDisciplinaCadastrada"
+        android:layout_marginTop="385dp"
+        android:layout_marginHorizontal="268dp"
+        android:text="@string/btnAvancar" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDisciplinaCadastrada"
+        android:layout_marginTop="385dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/btnVoltar" />
+
+    <Button
+        android:id="@+id/btnDisciplina1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDisciplinaCadastrada"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnDisciplina2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDisciplina1"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnDisciplina3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDisciplina2"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnDisciplina4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDisciplina3"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnDisciplina5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDisciplina4"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnDisciplina6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDisciplina5"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txtDisciplinaCadastrada"
+        android:layout_marginTop="385dp"
+        android:text="@string/btnExcluir" />
+
+
+
+</RelativeLayout>
